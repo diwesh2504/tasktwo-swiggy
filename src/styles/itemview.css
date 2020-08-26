@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color:lightcoral;
+    color: white;
+  }
+  .button-1 {
+    margin-left:10px;
+    background-color:white;
+    border: 1px orange;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .table {
+      width: 3%;
+      height:auto;
+      
+    }
+  }

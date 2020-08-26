@@ -1,0 +1,7 @@
+.cart-display-top{
+    margin-top:20px;
+    overflow-x:auto;
+    display:grid;
+    grid-template-rows: 50% 5% 5%;
+    grid-row-gap:10px;
+}
